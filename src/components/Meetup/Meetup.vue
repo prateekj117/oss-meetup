@@ -11,7 +11,7 @@
           height="400px"
           ></v-card-media>
           <v-card-text>
-            <div class="black--text">17th July 2017 - Where it takes place</div>
+            <h3 class="black--text">17th July 2017 - Where it takes place</h3>
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut commodi deserunt dignissimos et eveniet expedita fugit laboriosam minima, omnis sapiente sequi temporibus. Accusantium animi dolor nam placeat provident ut voluptas?</div>
           </v-card-text>
           <v-card-actions>
