@@ -6,8 +6,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     loadedMeetups: [
-      { imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg', id: 'sdvscvc', title: 'Meetup in New York', date: '2017-07-17' },
-      { imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Sunset_over_the_base_of_the_Eiffel%2C_Paris_2007.jpg', id: 'fdvdfdfv', title: 'Meetup in Paris', date: '2017-07-19' }
+      { imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg', id: 'sdvscvc', title: 'Meetup in New York', date: new Date(), location: 'New York', description: 'New York, New York!' },
+      { imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Sunset_over_the_base_of_the_Eiffel%2C_Paris_2007.jpg', id: 'fdvdfdfv', title: 'Meetup in Paris', date: new Date(), location: 'Paris', description: 'It\'s Paris' }
     ],
     user: {
       id: 'adefsfefsdds',
